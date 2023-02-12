@@ -1,0 +1,98 @@
+{
+    "angel beats": {
+        "Episodes": 12,
+        "Genre": "drama",
+        "Length": "short",
+        "Type": "series"
+    },
+    "anohana": {
+        "Episodes": 11,
+        "Genre": "drama",
+        "Length": "short",
+        "Type": "series"
+    },
+    "anohana movie": {
+        "Episodes": 1,
+        "Genre": "drama",
+        "Length": "short",
+        "Type": "movie"
+    },
+    "black butler": {
+        "Episodes": 12,
+        "Genre": "shounen",
+        "Length": "short",
+        "Type": "series"
+    },
+    "black clover": {
+        "Episodes": 170,
+        "Genre": "shounen",
+        "Length": "long",
+        "Type": "series"
+    },
+    "edens zero": {
+        "Episodes": 25,
+        "Genre": "shounen",
+        "Length": "short",
+        "Type": "series"
+    },
+    "fairy tail": {
+        "Episodes": 328,
+        "Genre": "shounen",
+        "Length": "long",
+        "Type": "series"
+    },
+    "maquia": {
+        "Episodes": 1,
+        "Genre": "drama",
+        "Length": "short",
+        "Type": "movie"
+    },
+    "one piece": {
+        "Episodes": 1049,
+        "Genre": "shounen",
+        "Length": "long",
+        "Type": "series"
+    },
+    "one punch man": {
+        "Episodes": 24,
+        "Genre": "shounen",
+        "Length": "short",
+        "Type": "series"
+    },
+    "prison school": {
+        "Episodes": 12,
+        "Genre": "comedy",
+        "Length": "short",
+        "Type": "series"
+    },
+    "rezero": {
+        "Episodes": 50,
+        "Genre": "isekai",
+        "Length": "long",
+        "Type": "series"
+    },
+    "sword art online": {
+        "Episodes": 96,
+        "Genre": "shounen",
+        "Length": "long",
+        "Type": "series"
+    },
+    "sword art online ordinal scale": {
+        "Episodes": 1,
+        "Genre": "shounen",
+        "Length": "short",
+        "Type": "movie"
+    },
+    "sword art online progressive 1": {
+        "Episodes": 1,
+        "Genre": "shounen",
+        "Length": "short",
+        "Type": "movie"
+    },
+    "toradora": {
+        "Episodes": 25,
+        "Genre": "slice of life",
+        "Length": "short",
+        "Type": "series"
+    }
+}
