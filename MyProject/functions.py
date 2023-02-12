@@ -197,10 +197,7 @@ def randomPicker():
         for p_id, p_info in data.items():
             if p_info == {'Genre': genre, 'Length': length, 'Type': movieSeries}:
                 animelists.append(p_id)
-            else:
-                animelists = []      
 
-        print(animelists)
         if animelists == []:
             print('--------------------------------------')
             print("||    SORRY, NOTHING FOUND WITH     ||")
@@ -255,10 +252,8 @@ def addNewAnime():
                     newLists[dict_name] = {}
                     genre = input("Enter genre: ")
                     length = input("Is the anime short or long: ")
-                    episodes = int(input("Enter number of episodes: "))
                     type = input("Enter type: ")
                     newLists[dict_name]["Genre"] = genre
-                    newLists[dict_name]["Episodes"] = episodes
                     newLists[dict_name]["Type"] = type
                     newLists[dict_name]["Length"] = length
 
@@ -271,7 +266,7 @@ def addNewAnime():
 
                     with open("mylist.json", "w") as write_file:
                         json.dump(data, write_file, indent=4, sort_keys=True)
-                    doYouWant = input('Do you want to add it to watch queue? Y/N')
+                    doYouWant = input('Do you want to add it to watch queue? Y/N: ')
                     doYouWant = doYouWant.lower()
                     if doYouWant == "y":
                         addToQueue(dict_name)
@@ -304,14 +299,7 @@ def findAnime():
             if (treeList.find(title)):
                 print("The anime exists in your list")
                 print('-----------------------------------')
-                while True:
-                    if title in toWatch:
-                        print('but the anime is already in the queue!')
-                        print('-------------------------------------')
-                        input('press enter to go back to main menu')
-                        mainMenu()
-                    else:
-                        break
+                input('press enter to proceed... ')
             else:
                 print('That anime does not exist')
                 print('------------------------------')
@@ -454,7 +442,8 @@ def addToQueue(anime):
                 json.dump(toWatch, write_file, indent=4)
             print(toWatch)
             print("Anime added")
-            mainMenu
+            input('press enter to proceed... ')
+            mainMenu()
         else:
             print('OK')
             print(toWatch)
