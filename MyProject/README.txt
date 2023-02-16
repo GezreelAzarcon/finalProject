@@ -1,6 +1,12 @@
 =========================================================================================================
 WATCHLIST ORGANIZER
 =========================================================================================================
+Why?
+    - I really like watching japanese animations so this is the project that will benefit myself
+    using the basic data structures and algorithms that I have learned in class
+    - As I watch shows, I want to keep track of all the shows that I am planning to watch
+    - Sometimes I can't choose what to watch so I made a program that will choose for me
+---------------------------------------------------------------------------------------------------------
 What is it?
     - A multi function organizer for the shows that I am watching
 ---------------------------------------------------------------------------------------------------------
